@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vogue Website Menu Beer" />
+    <meta http-equiv="Cache-control" content="public" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Vogue - Cocktails & Spirits</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/VogueLogoHeader.webp"
+      type="image/jpg"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/menuBeerStyle.css" />
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/menuScript.js" defer></script>
+
+    <!-- 
+  - ionicon link
+-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <!-- 
+    - #PRELOADER
+     -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Vogue</p>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img
+            src="./assets/images/Vogue-logo-entire.png"
+            width="100"
+            height="50"
+            alt="Vogue - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="menu.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menu</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="gallery.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Galleria</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="recensioni.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Recensioni</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="contatti.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contatti</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <!-- 
+      - #MENU
+    -->
+    <div id="all-menu">
+      <section
+        class="section menu beer"
+        aria-label="menu-label"
+        menu-data
+        id="menu-list"
+      >
+        <div class="container" id="menu-beer">
+          <p class="section-subtitle text-center label-2">Spartani</p>
+
+          <h2 class="headline-1 section-title text-center">Menu Birre</h2>
+
+          <div class="menu-birre-bottiglia">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 3.50</li>
+              <li>&euro; 3.50</li>
+              <li>&euro; 3.50</li>
+              <li>&euro; 3.50</li>
+              <li>&euro; 5.00</li>
+              <li>&euro; 3.00</li>
+              <li>&euro; 3.50</li>
+              <li>&euro; 3.50</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Birre in Bottiglia</h1>
+              <li>Menabrea</li>
+              <li>Messina Cristalli di Sale</li>
+              <li>Blanche</li>
+              <li>Ichnusa non filtrata</li>
+              <li>Lagunitas IPA</li>
+              <li>Birra dello Stretto</li>
+              <li>Slalom</li>
+              <li>Tennet's</li>
+            </ul>
+          </div>
+
+          <hr />
+
+          <div class="menu-birre-spina">
+            <ul>
+              <h1 class="item">Birre alla Spina*</h1>
+              <li>
+                <div class="tooltip">
+                  Affligen
+                  <span class="tooltiptext">
+                    Piccola &nbsp;&nbsp;&nbsp;&euro; 4.00
+                    <br />
+                    Media &nbsp;&nbsp;&nbsp;&euro; 6.00
+                  </span>
+                </div>
+              </li>
+
+              <li>
+                <div class="tooltip">
+                  Lagunitas IPA
+                  <span class="tooltiptext">
+                    Piccola &nbsp;&nbsp;&nbsp;&euro; 4.50
+                    <br />
+                    Media &nbsp;&nbsp;&nbsp;&euro; 6.50
+                  </span>
+                </div>
+              </li>
+
+              <li>
+                <div class="tooltip">
+                  Messina Non Filtrata
+                  <span class="tooltiptext">
+                    Piccola &nbsp;&nbsp;&nbsp;&euro; 3.50
+                    <br />
+                    Media &nbsp;&nbsp;&nbsp;&euro; 6.00
+                  </span>
+                </div>
+              </li>
+
+              <li>
+                <div class="tooltip">
+                  Messina Cristalli di Sale
+                  <span class="tooltiptext">
+                    Piccola &nbsp;&nbsp;&nbsp;&euro; 3.50
+                    <br />
+                    Media &nbsp;&nbsp;&nbsp;&euro; 5.00
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="contact-label">
+          *Muoviti sul prodotto per saperne dettagli e prezzo
+        </p>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vogue Website Gallery" />
+    <meta http-equiv="Cache-control" content="public" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Vogue - Cocktails & Spirits</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/VogueLogoHeader.webp"
+      type="image/jpg"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/galleryStyle.css" />
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+  - ionicon link
+-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <!-- 
+    - #PRELOADER
+     -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Vogue</p>
+    </div>
+
+    <!-- 
+    - #HEADER
+     -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img
+            src="./assets/images/Vogue-logo-entire.png"
+            width="100"
+            height="50"
+            alt="Vogue - Home"
+          />
+        </a>
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="menu.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menu</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="gallery.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Galleria</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="recensioni.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Recensioni</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="contatti.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contatti</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <section class="section text-center" id="gallery">
+      <div class="container">
+        <p class="section-subtitle label-2">Ricordi Indelebili</p>
+
+        <h2 class="headline-1 section-title">Ogni Ricordo, Un'Emozione</h2>
+
+        <br />
+
+        <div class="gallery">
+          <figure class="gallery__item gallery__item--1">
+            <img
+              src="./assets/images/VogueBancone.webp"
+              srcset="
+                ./assets/images/VogueBanconeSmall.webp   480w,
+                ./assets/images/VogueBanconeMedium.webp  767w,
+                ./assets/images/VogueBanconeLarge.webp  1024w,
+                ./assets/images/VogueBancone.webp       2048w
+              "
+              sizes="50vw"
+              width="100%"
+              height="100%"
+              class="gallery__img"
+              alt="Vogue Bancone"
+            />
+          </figure>
+          <figure class="gallery__item gallery__item--2">
+            <img
+              src="./assets/images/VogueBeers.webp"
+              srcset="
+                ./assets/images/VogueBeersSmall.webp   480w,
+                ./assets/images/VogueBeersMedium.webp  767w,
+                ./assets/images/VogueBeers.webp       1024w
+              "
+              sizes="50vw"
+              width="100%"
+              height="100%"
+              class="gallery__img"
+              alt="Vogue Beers"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item gallery__item--3">
+            <img
+              src="./assets/images/VogueDaniele.webp"
+              srcset="
+                ./assets/images/VogueDanieleSmall.webp   480w,
+                ./assets/images/VogueDanieleMedium.webp  767w,
+                ./assets/images/VogueDaniele.webp       1024w
+              "
+              sizes="50vw"
+              width="100%"
+              height="100%"
+              class="gallery__img"
+              alt="Vogue Daniele"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item gallery__item--4">
+            <img
+              src="./assets/images/VogueBanconeCaffe.webp"
+              srcset="
+              ./assets/images/VogueBanconeCaffeSmall.webp   480w,
+              ./assets/images/VogueBanconeCaffeMedium.webp  767w,
+              ./assets/images/VogueBanconeCaffeLarge.webp       1024w
+              ./assets/images/VogueBanconeCaffe.webp 2048w
+            "
+              sizes="50vw"
+              width="100%"
+              height="100%"
+              class="gallery__img"
+              alt="Vogue Bancone Caffè"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item gallery__item--5">
+            <img
+              src="./assets/images/VogueFlower.webp"
+              srcset="
+            ./assets/images/VogueFlowerSmall.webp   480w,
+            ./assets/images/VogueFlowerMedium.webp  767w,
+            ./assets/images/VogueFlowerLarge.webp       1024w
+            ./assets/images/VogueFlower.webp 2048w
+          "
+              sizes="50vw"
+              width="100%"
+              height="100%"
+              class="gallery__img"
+              alt="Vogue Flower"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="gallery__item gallery__item--6">
+            <img
+              src="./assets/images/VogueSelectionWine.webp"
+              srcset="
+                ./assets/images/VogueSelectionWineSmall.webp   480w,
+                ./assets/images/VogueSelectionWineMedium.webp  767w,
+                ./assets/images/VogueSelectionWine.webp       1024w
+              "
+              sizes="50vw"
+              width="100%"
+              height="100%"
+              class="gallery__img"
+              alt="Vogue Selection Wine"
+              loading="lazy"
+            />
+          </figure>
+
+          <figure class="gallery__item gallery__item--7">
+            <img
+              src="./assets/images/VogueSalaRed.webp"
+              srcset="
+        ./assets/images/VogueSalaRedSmall.webp   480w,
+        ./assets/images/VogueSalaRedMedium.webp  767w,
+        ./assets/images/VogueSalaRedLarge.webp       1024w
+        ./assets/images/VogueSalaRed.webp 2048w
+      "
+              sizes="50vw"
+              width="100%"
+              height="100%"
+              class="gallery__img"
+              alt="Vogue Sala Red"
+              loading="lazy"
+            />
+          </figure>
+
+          <figure class="gallery__item gallery__item--8">
+            <img
+              src="./assets/images/VogueLorenzoBack.webp"
+              srcset="
+                ./assets/images/VogueLorenzoBackSmall.webp   480w,
+                ./assets/images/VogueLorenzoBackMedium.webp  767w,
+                ./assets/images/VogueLorenzoBack.webp       1024w
+              "
+              sizes="50vw"
+              width="100%"
+              height="100%"
+              class="gallery__img"
+              alt="Vogue Lorenzo Back"
+              loading="lazy"
+            />
+          </figure>
+
+          <figure class="gallery__item gallery__item--9">
+            <img
+              src="./assets/images/VogueSala.webp"
+              srcset="
+          ./assets/images/VogueSalaSmall.webp   480w,
+          ./assets/images/VogueSalaMedium.webp  767w,
+          ./assets/images/VogueSalaLarge.webp       1024w
+          ./assets/images/VogueSala.webp 2048w
+        "
+              sizes="50vw"
+              width="100%"
+              height="100%"
+              class="gallery__img"
+              alt="Vogue Sala"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

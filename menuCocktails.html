@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vogue Website Menu Cocktails" />
+    <meta http-equiv="Cache-control" content="public" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Vogue - Cocktails & Spirits</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/VogueLogoHeader.webp"
+      type="image/jpg"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/menuCocktailsStyle.css" />
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/menuScript.js" defer></script>
+
+    <!-- 
+  - ionicon link
+-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <!-- 
+    - #PRELOADER
+     -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Vogue</p>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img
+            src="./assets/images/Vogue-logo-entire.png"
+            width="100"
+            height="50"
+            alt="Vogue - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="menu.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menu</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="gallery.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Galleria</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="recensioni.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Recensioni</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="contatti.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contatti</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <!-- 
+      - #MENU
+    -->
+    <div id="all-menu">
+      <section
+        class="section menu cocktails"
+        aria-label="menu-label"
+        menu-data
+        id="menu-list"
+      >
+        <div class="container" id="menu-cocktails">
+          <p class="section-subtitle text-center label-2">Let's Party!</p>
+
+          <h2 class="headline-1 section-title text-center">
+            Cocktail Drink List*
+          </h2>
+
+          <div class="menu-no-alcohol">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 5.00</li>
+              <li>&euro; 5.00</li>
+              <li>&euro; 7.00</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Analcolici</h1>
+              <li>
+                <div class="tooltip">
+                  Virgin Colada
+                  <span class="tooltiptext"
+                    >Succo d'Ananas, Sciroppo di Cocco</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Virgin Mojito
+                  <span class="tooltiptext"
+                    >Pestato di Lime, Zucchero di Canna e Menta Fresca, Lemon,
+                    Soda</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Cocktail alla Frutta
+                  <span class="tooltiptext"
+                    >Disponibilità di Frutta Fresca</span
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <hr />
+
+          <div class="menu-cocktails">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 5.00</li>
+              <li>&euro; 6.00</li>
+              <li>&euro; 7.00</li>
+              <li>&euro; 7.00</li>
+              <li>&euro; 6.00</li>
+              <li>&euro; 8.00</li>
+              <li>&euro; 8.00</li>
+              <li>&euro; 7.00</li>
+              <li>&euro; 7.00</li>
+              <li>&euro; 7.00</li>
+              <li>&euro; 7.00</li>
+              <li>&euro; 6.00</li>
+              <li>&euro; 6.00</li>
+              <li>&euro; 7.00</li>
+              <li>&euro; 6.00</li>
+              <li>&euro; 6.00</li>
+              <li>&euro; 6.00</li>
+              <li>&euro; 6.00</li>
+              <li>&euro; 6.00</li>
+              <li>&euro; 6.00</li>
+              <li>&euro; 6.00</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Alcolici</h1>
+              <li>
+                <div class="tooltip">
+                  Spritz
+                  <span class="tooltiptext">Prosecco, Aperol, Soda </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Americano
+                  <span class="tooltiptext"
+                    >Campari, Vermouth Rosso, Soda
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Negroni
+                  <span class="tooltiptext">Campari, Vermouth Rosso, Gin </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Negrowsky
+                  <span class="tooltiptext"
+                    >Campari, Vermouth Rosso, Vodka
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Cuba Libre
+                  <span class="tooltiptext"
+                    >Rum Bianco, Succo di Lime Fresco, Coca-Cola
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Mojito
+                  <span class="tooltiptext"
+                    >Pestato di Lime, Zucchero di Canna, Menta Fresca, Rum
+                    Bianco, Soda
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Capiroska
+                  <span class="tooltiptext"
+                    >Pestato di Lime, Zucchero di Canna, Sciroppo di
+                    Fragola/Pesca, Vodka, Soda
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Long Island
+                  <span class="tooltiptext"
+                    >Vodka, Rum Bianco, Gin, Triple Sec, Sour, Coca-Cola
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Miami Iced Tea
+                  <span class="tooltiptext"
+                    >Vodka, Rum Bianco, Gin, Triple Sec, Blue Curaçao, Sour
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Japan Iced Tea
+                  <span class="tooltiptext"
+                    >Vodka, Rum Bianco, Gin, Triple Sec, Midori, Sour
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Mai Tai
+                  <span class="tooltiptext"
+                    >Rum Bianco, Rum Scuro, Orange Curaçao, Orzata, Succo di
+                    Lime Fresco, Sour
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Tequila Sunrise
+                  <span class="tooltiptext"
+                    >Tequila Bianca, Succo d'Arancia, Granatina
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Sex on the Beach
+                  <span class="tooltiptext"
+                    >Vodka, Peachtree, Succo d'Arancia, Cranberry, Granatina
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Moscow Mule
+                  <span class="tooltiptext"
+                    >Vodka, Succo di Lime, Ginger Beer
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Piña Colada
+                  <span class="tooltiptext"
+                    >Rum Bianco, Succo d'Ananas, Sciroppo di Cocco
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Martini
+                  <span class="tooltiptext">Martini Bianco, Gin </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Margarita
+                  <span class="tooltiptext"
+                    >Tequila Bianca, Cointreau, Succo di Lime Fresco
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Daiquiri
+                  <span class="tooltiptext"
+                    >Rum Bianco, Succo di Lime Fresco, Sour
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Cadillac
+                  <span class="tooltiptext"
+                    >Galliano, Crema di Cacao Bianca e Panna Fresca
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Aviation
+                  <span class="tooltiptext"
+                    >Gin, Maraschino, Liquore alla Violetta, Succo di Limone
+                    Fresco
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Cosmopolitan
+                  <span class="tooltiptext"
+                    >Vodka, Cointreau, Succo di Lime Fresco, Cranberry
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <p class="contact-label">
+            *Muoviti sul prodotto per saperne i condimenti
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

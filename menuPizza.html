@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vogue Website Menu Pizza" />
+    <meta http-equiv="Cache-control" content="public" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Vogue - Cocktails & Spirits</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/VogueLogoHeader.webp"
+      type="image/jpg"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/menuPizzaStyle.css" />
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/menuScript.js" defer></script>
+
+    <!-- 
+  - ionicon link
+-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <!-- 
+    - #PRELOADER
+     -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Vogue</p>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img
+            src="./assets/images/Vogue-logo-entire.png"
+            width="100"
+            height="50"
+            alt="Vogue - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="menu.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menu</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="gallery.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Galleria</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="recensioni.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Recensioni</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="contatti.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contatti</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <!-- 
+      - #MENU
+    -->
+    <div id="all-menu">
+      <section
+        class="section menu pizza"
+        aria-label="menu-label"
+        menu-data
+        id="menu-list"
+      >
+        <div class="container" id="menu-pizza">
+          <p class="section-subtitle text-center label-2">Pizza Time</p>
+
+          <h2 class="headline-1 section-title text-center">Menu Apericena*</h2>
+
+          <div class="menu-aperitif">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 2.00</li>
+              <li>&euro; 2,20</li>
+              <li>&euro; 3,50</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Aperitivi</h1>
+              <li>Snack</li>
+              <li>Tramezzino</li>
+              <li>Panino</li>
+              <li>
+                <div class="tooltip">
+                  AperiVogue
+                  <span class="tooltiptext">
+                    Piccolo &nbsp;&nbsp;&nbsp;&euro; 6.00
+                    <br />
+                    Medio &nbsp;&nbsp;&nbsp;&euro; 8.00
+                    <br />
+                    Grande &nbsp;&nbsp;&nbsp;&euro; 12.00
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <hr />
+
+          <div class="menu-rosse">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 5.00</li>
+              <li>&euro; 5.50</li>
+              <li>&euro; 6.50</li>
+              <li>&euro; 8.50</li>
+              <li>&euro; 8.00</li>
+              <li>&euro; 7.50</li>
+              <li>&euro; 8.00</li>
+              <li>&euro; 7.50</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Pizze Rosse</h1>
+              <li>
+                <div class="tooltip">
+                  Rossa
+                  <span class="tooltiptext">Pomodoro</span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Marinara
+                  <span class="tooltiptext">Pomodoro-Origano-Aglio</span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Margherita
+                  <span class="tooltiptext">Pomodoro-Mozzarella</span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Parmigiana
+                  <span class="tooltiptext"
+                    >Pomodoro-Mozzarella-Melanzane-Parmigiano-Origano</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Bufalina
+                  <span class="tooltiptext">Pomodoro-Bufala-Basilico</span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Diavola
+                  <span class="tooltiptext"
+                    >Pomodoro-Mozzarella-Salame Piccante-Peperoncino</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Capricciosa
+                  <span class="tooltiptext"
+                    >Pomodoro-Mozzarella-Funghi-Prosc.Crudo-Carciofini-Olive
+                    Nere-Prosc.Cotto</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Napoli
+                  <span class="tooltiptext">Pomodoro-Mozzarella-Alici</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <p class="contact-label">
+            *Muoviti sul prodotto per saperne i condimenti
+          </p>
+
+          <hr />
+
+          <div class="menu-rosse-fredde">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 8.00</li>
+              <li>&euro; 8.50</li>
+              <li>&euro; 8.50</li>
+              <li>&euro; 8.50</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Rosse Fredde</h1>
+
+              <li>
+                <div class="tooltip">
+                  Tonno e Carciofini
+                  <span class="tooltiptext">Pomodoro-Tonno-Carciofini</span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Rughetta, Bresaola e Grana
+                  <span class="tooltiptext"
+                    >Pomodoro-Rucola-Bresaola-Parmigiano</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Rughetta, Gamberetti, Pachino
+                  <span class="tooltiptext"
+                    >Pomodoro-Rucola-Gamberetti-Pachino-Salsa Rosa</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Rughetta, Pachino e Salmone
+                  <span class="tooltiptext"
+                    >Pomodoro-Pachino-Rucola-Mozzarella-Salmone</span
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+          <p class="contact-label">
+            *Muoviti sul prodotto per saperne i condimenti
+          </p>
+
+          <hr />
+
+          <div class="menu-bianche">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 8.00</li>
+              <li>&euro; 8.00</li>
+              <li>&euro; 8.50</li>
+              <li>&euro; 8.50</li>
+              <li>&euro; 8.50</li>
+              <li>&euro; 8.00</li>
+              <li>&euro; 8.00</li>
+              <li>&euro; 8.00</li>
+              <li>&euro; 9.00</li>
+              <li>&euro; 8.50</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Pizze Bianche</h1>
+              <li>
+                <div class="tooltip">
+                  Crostino
+                  <span class="tooltiptext"
+                    >Mozzarella-Prosc.Cotto-Salsiccia</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Patate
+                  <span class="tooltiptext">Mozzarella-Patate-Rosmarino</span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Patate e Salsiccia
+                  <span class="tooltiptext"
+                    >Mozzarella-Patate-Salsiccia-Rosmarino</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Pachino e Alici
+                  <span class="tooltiptext"
+                    >Mozzarella-Alici-Pachino-Origano</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Fiori e Alici
+                  <span class="tooltiptext"
+                    >Mozzarella-Fiori di Zucca-Alici</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Zucchine e Pachino
+                  <span class="tooltiptext">Mozzarella-Zucchine-Pachino</span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  4 Formaggi
+                  <span class="tooltiptext">Mozzarella-Crema 4 Formaggi</span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Boscaiola
+                  <span class="tooltiptext"
+                    >Pomodoro-Mozzarella-Salsiccia-Funghi</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Rughetta, Crudo e Bufala
+                  <span class="tooltiptext"
+                    >Pomodoro-Pachino-Rucola-Prosc.Crudo-Bufala</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Broccoletti e Salsiccia
+                  <span class="tooltiptext"
+                    >Mozzarella-Broccoletti-Salsiccia</span
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <hr />
+
+          <div class="menu-speciali">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 9.00</li>
+              <li>&euro; 9.00</li>
+              <li>&euro; 9.00</li>
+              <li>&euro; 9.00</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Pizze Speciali</h1>
+              <li>
+                <div class="tooltip">
+                  Tartufona
+                  <span class="tooltiptext"
+                    >Crema 4 Formaggi-Salame Piccante-Tartufo-Mozzarella</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Zucca e Porcini
+                  <span class="tooltiptext"
+                    >Mozzarella-Zucca Gialla-Funghi Porcini</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Gustosa
+                  <span class="tooltiptext"
+                    >Crema 4 Formaggi-Tartufo-Funghi Porcini-Pancetta</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Gricia
+                  <span class="tooltiptext"
+                    >Mozzarella-Guanciale-Pecorino-Parmigiano-Pepe</span
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <hr />
+
+          <div class="menu-focacce">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 4.50</li>
+              <li>&euro; 8.50</li>
+              <li>&euro; 7.00</li>
+              <li>&euro; 8.50</li>
+              <li>&euro; 8.50</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Focacce</h1>
+              <li>
+                <div class="tooltip">
+                  Bianca con Rosmarino
+                  <span class="tooltiptext">Sale-Olio-Rosmarino</span>
+                </div>
+              </li>
+              <li>
+                <div class="tooltip">
+                  Caprese
+                  <span class="tooltiptext"
+                    >Pomodoro-Mozzarella-Pomodoro Verde</span
+                  >
+                </div>
+              </li>
+              <li>Prosciutto Crudo</li>
+              <li>Prosciutto Crudo e Bufala</li>
+              <li>
+                <div class="tooltip">
+                  Mortadella, Pistacchio e Bufala
+                  <span class="tooltiptext"
+                    >Mozzarella-Mortadella Ansuini-Bufala-Pistacchio-Aceto
+                    Balsamico</span
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <hr />
+
+          <div class="menu-dessert">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 9.00</li>
+              <li>&euro; 9.50</li>
+              <li>&euro; 9.50</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Pizze Dessert</h1>
+              <li>Nutella</li>
+              <li>Nutella e Granella Pistacchio</li>
+              <li>Nutella con Granella Biscotto</li>
+            </ul>
+          </div>
+
+          <hr />
+
+          <div class="menu-friggitoria">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 1.50</li>
+              <li>&euro; 0.80</li>
+              <li>&euro; 3.00</li>
+              <li>&euro; 1.80</li>
+              <li>&euro; 4.00</li>
+              <li>&euro; 4.00</li>
+              <li>&euro; 2.50</li>
+              <li>&euro; 3.00</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Friggitoria</h1>
+              <li>Supplì 1 pz</li>
+              <li>Mini Supplì 1 pz</li>
+              <li>Panzerotti 2 pz</li>
+              <li>Fori di Zucca</li>
+              <li>Olive Ascolana 6pz</li>
+              <li>Patatine Fritte</li>
+              <li>Filetto Baccalà</li>
+              <li>Mix Verdure Pastellate</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

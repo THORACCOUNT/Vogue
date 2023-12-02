@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vogue Website Menu Soft Drink" />
+    <meta http-equiv="Cache-control" content="public" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Vogue - Cocktails & Spirits</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/VogueLogoHeader.webp"
+      type="image/jpg"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/menuSoftDrinkStyle.css" />
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/menuScript.js" defer></script>
+
+    <!-- 
+  - ionicon link
+-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <!-- 
+    - #PRELOADER
+     -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Vogue</p>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img
+            src="./assets/images/Vogue-logo-entire.png"
+            width="100"
+            height="50"
+            alt="Vogue - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="menu.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menu</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="gallery.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Galleria</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="recensioni.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Recensioni</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="contatti.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contatti</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <!-- 
+      - #MENU
+    -->
+    <div id="all-menu">
+      <section
+        class="section menu soft-drink"
+        aria-label="menu-label"
+        menu-data
+        id="menu-list"
+      >
+        <div class="container" id="menu-soft-drink">
+          <p class="section-subtitle text-center label-2">Coccole</p>
+
+          <h2 class="headline-1 section-title text-center">Menu Soft Drinks</h2>
+
+          <div class="menu-soft-drink">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+
+              <li class="modal-item">Clicca Qui</li>
+              <div class="modal">
+                <div class="modal-content">
+                  <div class="submenu">
+                    <h2>Dettagli</h2>
+                    <ol>
+                      <li>&euro; 1.00</li>
+                      <li>&euro; 2.00</li>
+                      <li>&euro; 1.70</li>
+                      <li>&euro; 2.00</li>
+                    </ol>
+                    <ul>
+                      <li>Acqua 0,5lt</li>
+                      <li>Acqua 1,5lt</li>
+                      <li>Estathé Brick</li>
+                      <li>Fuze Tea</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <li class="modal-item">Clicca Qui</li>
+              <div class="modal">
+                <div class="modal-content">
+                  <div class="submenu">
+                    <h2>Dettagli</h2>
+                    <ol>
+                      <li>&euro; 1.80</li>
+                      <li>&euro; 2.10</li>
+                      <li>&euro; 2.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 1.80</li>
+                      <li>&euro; 2.10</li>
+                      <li>&euro; 2.00</li>
+                    </ol>
+                    <ul>
+                      <li>Coca-Cola 33cl</li>
+                      <li>Coca-Cola PET</li>
+                      <li>Coca-Cola Vetro</li>
+                      <li>Coca-Cola 1,5lt</li>
+                      <li>Fanta 33cl</li>
+                      <li>Fanta PET</li>
+                      <li>Fanta Vetro</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <li class="modal-item">Clicca Qui</li>
+              <div class="modal">
+                <div class="modal-content">
+                  <div class="submenu-latte">
+                    <h2>Dettagli</h2>
+                    <ol>
+                      <li>&euro; 2.00</li>
+                      <li>&euro; 2.20</li>
+                      <li>&euro; 2.30</li>
+                    </ol>
+                    <ul>
+                      <li>Latte 1lt</li>
+                      <li>Latte HD</li>
+                      <li>Latte Soia 1lt</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <li class="modal-item">Clicca Qui</li>
+              <div class="modal">
+                <div class="modal-content">
+                  <div class="submenu-energy">
+                    <h2>Dettagli</h2>
+                    <ol>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 2.50</li>
+                    </ol>
+                    <ul>
+                      <li>Red Bull</li>
+                      <li>Monster</li>
+                      <li>Succhi di frutta</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <li class="modal-item">Clicca Qui</li>
+              <div class="modal">
+                <div class="modal-content">
+                  <div class="submenu">
+                    <h2>Dettagli</h2>
+                    <ol>
+                      <li>&euro; 2.50</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.50</li>
+                      <li>&euro; 3.50</li>
+                      <li>&euro; 2.50</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 2.50</li>
+                    </ol>
+                    <ul>
+                      <li>Aperol soda</li>
+                      <li>Campari Soda</li>
+                      <li>Campari Liscio</li>
+                      <li>Campari Gin</li>
+                      <li>AperTass</li>
+                      <li>Schweppes</li>
+                      <li>Crodino</li>
+                      <li>Cocktail Sanpellegrino</li>
+                      <li>Cedrata</li>
+                      <li>Chinotto</li>
+                      <li>Bevande Lurisia</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </ol>
+
+            <ul>
+              <h1 class="item">Bevande</h1>
+              <li>Acqua/Thé</li>
+              <li>Coca-Cola/Fanta</li>
+              <li>Latte</li>
+              <li>Bevande Energizzanti</li>
+              <li>Aperitivo</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

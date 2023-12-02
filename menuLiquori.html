@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vogue Website Menu Liquors" />
+    <meta http-equiv="Cache-control" content="public" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Vogue - Cocktails & Spirits</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/VogueLogoHeader.webp"
+      type="image/jpg"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/menuLiquoriStyle.css" />
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/menuScript.js" defer></script>
+
+    <!-- 
+  - ionicon link
+-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <!-- 
+    - #PRELOADER
+     -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Vogue</p>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img
+            src="./assets/images/Vogue-logo-entire.png"
+            width="100"
+            height="50"
+            alt="Vogue - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="menu.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menu</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="gallery.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Galleria</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="recensioni.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Recensioni</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="contatti.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contatti</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <!-- 
+      - #MENU
+    -->
+    <div id="all-menu">
+      <section
+        class="section menu liquori"
+        aria-label="menu-label"
+        menu-data
+        id="menu-list"
+      >
+        <div class="container" id="menu-liquori">
+          <p class="section-subtitle text-center label-2">Il Tocco Finale</p>
+
+          <h2 class="headline-1 section-title text-center">Menu Liquori</h2>
+
+          <div class="menu-liquori-all">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+
+              <li class="modal-item">Clicca Qui</li>
+              <div class="modal">
+                <div class="modal-content">
+                  <div class="submenu">
+                    <h2>Dettagli</h2>
+                    <ol>
+                      <li>&euro; 6.00</li>
+                      <li>&euro; 8.00</li>
+                      <li>&euro; 10.00</li>
+                      <li>&euro; 8.00</li>
+                      <li>&euro; 12.00</li>
+                      <li>&euro; 13.00</li>
+                      <li>&euro; 11.00</li>
+                      <li>&euro; 10.00</li>
+                      <li>&euro; 13.00</li>
+                      <li>&euro; 10.00</li>
+                      <li>&euro; 11.00</li>
+                      <li>&euro; 10.00</li>
+                      <li>&euro; 10.00</li>
+                      <li>&euro; 10.00</li>
+                      <li>&euro; 20.00</li>
+                    </ol>
+                    <ul>
+                      <li>Gin Tonic</li>
+                      <li>Tanqueray</li>
+                      <li>Tanqueray Ten</li>
+                      <li>Bombay</li>
+                      <li>Hills & Harbour</li>
+                      <li>The Botanist</li>
+                      <li>Nordes Gin</li>
+                      <li>Gin Mare</li>
+                      <li>Portofino</li>
+                      <li>Hendrick’s</li>
+                      <li>Bulldog</li>
+                      <li>Citadelle</li>
+                      <li>Malfy Original</li>
+                      <li>Etsu</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <li class="modal-item">Clicca Qui</li>
+              <div class="modal">
+                <div class="modal-content">
+                  <div class="submenu-latte">
+                    <h2>Dettagli</h2>
+                    <ol>
+                      <li>&euro; 7.00</li>
+                      <li>&euro; 6.00</li>
+                      <li>&euro; 8.00</li>
+                      <li>&euro; 10.00</li>
+                      <li>&euro; 10.00</li>
+                      <li>&euro; 7.00</li>
+                    </ol>
+                    <ul>
+                      <li>Artict</li>
+                      <li>Skyy</li>
+                      <li>Absolut</li>
+                      <li>Belvedere</li>
+                      <li>Grey Goose</li>
+                      <li>Vodka Redbull</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <li class="modal-item">Clicca Qui</li>
+              <div class="modal">
+                <div class="modal-content">
+                  <div class="submenu-latte">
+                    <h2>Dettagli</h2>
+                    <ol>
+                      <li>&euro; 4.00</li>
+                      <li>&euro; 5.50</li>
+                      <li>&euro; 7.00</li>
+                      <li>&euro; 4.00</li>
+                      <li>&euro; 10.00</li>
+                      <li>&euro; 6.00</li>
+                      <li>&euro; 7.00</li>
+                      <li>&euro; 6.00</li>
+                      <li>&euro; 5.00</li>
+                      <li>&euro; 5.00</li>
+                    </ol>
+                    <ul>
+                      <li>Jack Daniel’s</li>
+                      <li>Jack Daniel’s Honey</li>
+                      <li>Talisker Skye</li>
+                      <li>Jim Beam Bourbon</li>
+                      <li>Lagavulin 16YO</li>
+                      <li>Wild Turkey</li>
+                      <li>Oban 14YO</li>
+                      <li>Bulleit 95 RYE</li>
+                      <li>Black Label</li>
+                      <li>Red Label</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <li class="modal-item">Clicca Qui</li>
+              <div class="modal">
+                <div class="modal-content">
+                  <div class="submenu">
+                    <h2>Dettagli</h2>
+                    <ol>
+                      <li>&euro; 7.00</li>
+                      <li>&euro; 7.00</li>
+                      <li>&euro; 6.00</li>
+                      <li>&euro; 7.00</li>
+                      <li>&euro; 6.00</li>
+                      <li>&euro; 5.00</li>
+                      <li>&euro; 6.00</li>
+                      <li>&euro; 8.00</li>
+                    </ol>
+                    <ul>
+                      <li>Rum Barcelò Imperial</li>
+                      <li>Barcelò Imperial Onyx</li>
+                      <li>Appleton Estate Rare 12YO</li>
+                      <li>Diplomatico Riserva</li>
+                      <li>Rum Don Papa Baroko</li>
+                      <li>Kraken</li>
+                      <li>Matusalem 15YO</li>
+                      <li>Zacapa 23YO</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <li class="modal-item">Clicca Qui</li>
+              <div class="modal">
+                <div class="modal-content">
+                  <div class="submenu-latte">
+                    <h2>Dettagli</h2>
+                    <ol>
+                      <li>&euro; 3.50</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.50</li>
+                      <li>&euro; 3.50</li>
+                      <li>&euro; 3.50</li>
+                    </ol>
+                    <ul>
+                      <li>903 Barrique</li>
+                      <li>903 Bianca</li>
+                      <li>18Lune</li>
+                      <li>Castagner Torba Rossa 3YO</li>
+                      <li>Segnana</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <li class="modal-item">Clicca Qui</li>
+              <div class="modal">
+                <div class="modal-content">
+                  <div class="submenu">
+                    <h2>Dettagli</h2>
+                    <ol>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 4.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.50</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 4.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.50</li>
+                      <li>&euro; 3.50</li>
+                      <li>&euro; 3.50</li>
+                    </ol>
+                    <ul>
+                      <li>Averna</li>
+                      <li>Fernet Branca</li>
+                      <li>Branca Menta</li>
+                      <li>Braulio</li>
+                      <li>Braulio Riserva</li>
+                      <li>Jaegermeister</li>
+                      <li>Meyer’s Bitter</li>
+                      <li>Unicum</li>
+                      <li>Montenegro</li>
+                      <li>Petrus</li>
+                      <li>Jefferson</li>
+                      <li>Amaro del Capo</li>
+                      <li>Amaro Formidabbile</li>
+                      <li>Porto</li>
+                      <li>Kaiserfost</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <li class="modal-item">Clicca Qui</li>
+              <div class="modal">
+                <div class="modal-content">
+                  <div class="submenu">
+                    <h2>Dettagli</h2>
+                    <ol>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.50</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 3.00</li>
+                      <li>&euro; 4.50</li>
+                      <li>&euro; 3.00</li>
+                    </ol>
+                    <ul>
+                      <li>Limoncello</li>
+                      <li>Sambuca Molinari</li>
+                      <li>Mirto Zedda Piras</li>
+                      <li>Gambrinus</li>
+                      <li>Bayles</li>
+                      <li>Borghetti</li>
+                      <li>Disaronno</li>
+                      <li>Italicus</li>
+                      <li>Anima Nera</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </ol>
+
+            <ul>
+              <h1 class="item">Spirits</h1>
+              <li>Gin</li>
+              <li>Vodka</li>
+              <li>Whisky</li>
+              <li>Rum</li>
+              <li>Grappe</li>
+              <li>Amari</li>
+              <li>Liquori</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

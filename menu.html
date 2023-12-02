@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vogue Website Menu" />
+    <meta http-equiv="Cache-control" content="public" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Vogue - Cocktails & Spirits</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/VogueLogoHeader.webp"
+      type="image/jpg"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/menuStyle.css" />
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+  - ionicon link
+-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <!-- 
+    - #PRELOADER
+     -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Vogue</p>
+    </div>
+
+    <!-- 
+    - #HEADER
+     -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img
+            src="./assets/images/Vogue-logo-entire.png"
+            width="100"
+            height="50"
+            alt="Vogue - Home"
+          />
+        </a>
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menu</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="gallery.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Galleria</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="recensioni.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Recensioni</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="contatti.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contatti</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <!-- 
+        - #SERVICE
+      -->
+
+    <section
+      class="section service bg-black-10 text-center"
+      aria-label="service"
+      id="menu-cards"
+    >
+      <div class="container">
+        <p class="section-subtitle label-2">Sapori imperdibili</p>
+
+        <h2 class="headline-1 section-title">Offriamo solo il meglio</h2>
+
+        <p class="section-text">
+          Prepariamo tutto con cura e mani esperte, dedicando attenzione ai
+          dettagli, non solo al sapore
+        </p>
+
+        <ul class="grid-list">
+          <li>
+            <div class="service-card">
+              <div class="card-content">
+                <h3 class="title-4 card-title">
+                  <p>Colazione</p>
+                </h3>
+
+                <a
+                  href="menuBreakfast.html"
+                  class="btn-text hover-underline label-2"
+                  >Menu</a
+                >
+              </div>
+              <div>
+                <figure class="card-banner img-holder" style="--width: 100%">
+                  <img
+                    src="./assets/images/VogueBreakfast.webp"
+                    srcset="
+                      ./assets/images/VogueBreakfastSmall.webp   480w,
+                      ./assets/images/VogueBreakfastMedium.webp  767w,
+                      ./assets/images/VogueBreakfastLarge.webp  1024w,
+                      ./assets/images/VogueBreakfast.webp       2048w
+                    "
+                    sizes="50vw"
+                    alt="Vogue Breakfast"
+                    width="100%"
+                    height="100%"
+                  />
+                </figure>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+              <div class="card-content">
+                <h3 class="title-4 card-title">
+                  <p>Soft Drinks</p>
+                </h3>
+
+                <a
+                  href="menuSoftDrink.html"
+                  class="btn-text hover-underline label-2"
+                  >Menu</a
+                >
+              </div>
+              <div>
+                <figure class="card-banner img-holder">
+                  <img
+                    src="./assets/images/VogueSoftDrink.webp"
+                    srcset="
+                      ./assets/images/VogueSoftDrinkSmall.webp   480w,
+                      ./assets/images/VogueSoftDrinkMedium.webp  767w,
+                      ./assets/images/VogueSoftDrinkLarge.webp  1024w,
+                      ./assets/images/VogueSoftDrink.webp       2048w
+                    "
+                    sizes="50vw"
+                    alt="Vogue Soft Drinks"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+              <div class="card-content">
+                <h3 class="title-4 card-title">
+                  <p>Tavola Calda</p>
+                </h3>
+                <a
+                  href="menuTavolaCalda.html"
+                  class="btn-text hover-underline label-2"
+                  >Menu</a
+                >
+
+                <figure class="card-banner img-holder" style="--width: 100%">
+                  <img
+                    src="./assets/images/VogueTavolaCalda.webp"
+                    srcset="
+                      ./assets/images/VogueTavolaCaldaSmall.webp   480w,
+                      ./assets/images/VogueTavolaCaldaMedium.webp  767w,
+                      ./assets/images/VogueTavolaCaldaLarge.webp       1024w
+                      ./assets/images/VogueTavolaCalda.webp       2048w
+                    "
+                    sizes="50vw"
+                    alt="Vogue Tavola Calda"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+              <div class="card-content">
+                <h3 class="title-4 card-title">
+                  <p>Birre</p>
+                </h3>
+
+                <a href="menuBeer.html" class="btn-text hover-underline label-2"
+                  >Menu</a
+                >
+              </div>
+              <div>
+                <figure class="card-banner img-holder" style="--width: 100%">
+                  <img
+                    src="./assets/images/VogueBeers.webp"
+                    srcset="
+                      ./assets/images/VogueBeersSmall.webp   480w,
+                      ./assets/images/VogueBeersMedium.webp  767w,
+                      ./assets/images/VogueBeers.webp       1024w
+                    "
+                    sizes="50vw"
+                    alt="Vogue Beers"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+              <div class="card-content">
+                <h3 class="title-4 card-title">
+                  <p>Apericena</p>
+                </h3>
+
+                <a
+                  href="menuPizza.html"
+                  class="btn-text hover-underline label-2"
+                  >Menu</a
+                >
+              </div>
+              <div>
+                <figure class="card-banner img-holder" style="--width: 100%">
+                  <img
+                    src="./assets/images/VogueAppetizers.webp"
+                    srcset="
+                      ./assets/images/VogueAppetizersSmall.webp 480w,
+                      ./assets/images/VogueAppetizers.webp      767w
+                    "
+                    sizes="50vw"
+                    alt="Vogue Appetizers"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+              <div class="card-content">
+                <h3 class="title-4 card-title">
+                  <p>Vini</p>
+                </h3>
+
+                <a href="menuVini.html" class="btn-text hover-underline label-2"
+                  >Menu</a
+                >
+              </div>
+              <div>
+                <figure class="card-banner img-holder" style="--width: 100%">
+                  <img
+                    src="./assets/images/VogueSelectionWine.webp"
+                    srcset="
+                      ./assets/images/VogueSelectionWineSmall.webp   480w,
+                      ./assets/images/VogueSelectionWineMedium.webp  767w,
+                      ./assets/images/VogueSelectionWineLarge.webp       1024w
+                      ./assets/images/VogueSelectionWine.webp       2048w
+                    "
+                    sizes="50vw"
+                    alt="Vogue Selection Wine"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+              <div class="card-content">
+                <h3 class="title-4 card-title">
+                  <p>Cocktails</p>
+                </h3>
+
+                <a
+                  href="menuCocktails.html"
+                  class="btn-text hover-underline label-2"
+                  >Menu</a
+                >
+              </div>
+              <div>
+                <figure class="card-banner img-holder" style="--width: 100%">
+                  <img
+                    src="./assets/images/VogueLorenzoServing.webp"
+                    srcset="
+                      ./assets/images/VogueLorenzoServingSmall.webp   480w,
+                      ./assets/images/VogueLorenzoServingMedium.webp  767w,
+                      ./assets/images/VogueLorenzoServingLarge.webp       1024w
+                      ./assets/images/VogueLorenzoServing.webp       2048w
+                    "
+                    sizes="50vw"
+                    alt="Vogue Lorenzo Pouring Spritz"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+              <div class="card-content">
+                <h3 class="title-4 card-title">
+                  <p>Dolci</p>
+                </h3>
+
+                <a
+                  href="menuDolci.html"
+                  class="btn-text hover-underline label-2"
+                  >Menu</a
+                >
+              </div>
+              <div>
+                <figure class="card-banner img-holder" style="--width: 100%">
+                  <img
+                    src="./assets/images/VogueCheeseCake.webp"
+                    srcset="
+                      ./assets/images/VogueCheeseCakeSmall.webp   480w,
+                      ./assets/images/VogueCheeseCakeMedium.webp  767w,
+                      ./assets/images/VogueCheeseCakeLarge.webp   1024w
+                      ./assets/images/VogueCheeseCake.webp       2048w
+                    "
+                    sizes="50vw"
+                    alt="Vogue Cheesecake"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+              <div class="card-content">
+                <h3 class="title-4 card-title">
+                  <p>Liquori</p>
+                </h3>
+
+                <a
+                  href="menuLiquori.html"
+                  class="btn-text hover-underline label-2"
+                  >Menu</a
+                >
+              </div>
+              <div>
+                <figure class="card-banner img-holder" style="--width: 100%">
+                  <img
+                    src="./assets/images/VogueLiquor.webp"
+                    srcset="
+                      ./assets/images/VogueLiquorSmall.webp   480w,
+                      ./assets/images/VogueLiquorMedium.webp  767w,
+                      ./assets/images/VogueLiquorLarge.webp       1024w
+                      ./assets/images/VogueLiquor.webp       2048w
+                    "
+                    sizes="50vw"
+                    alt="Vogue Liquor"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
+                  />
+                </figure>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>

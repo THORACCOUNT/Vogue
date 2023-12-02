@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vogue Website Menu Wine" />
+    <meta http-equiv="Cache-control" content="public" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Vogue - Cocktails & Spirits</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/VogueLogoHeader.webp"
+      type="image/jpg"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/menuViniStyle.css" />
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/menuScript.js" defer></script>
+
+    <!-- 
+  - ionicon link
+-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <!-- 
+    - #PRELOADER
+     -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Vogue</p>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img
+            src="./assets/images/Vogue-logo-entire.png"
+            width="100"
+            height="50"
+            alt="Vogue - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="menu.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menu</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="gallery.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Galleria</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="recensioni.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Recensioni</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="contatti.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contatti</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <!-- 
+      - #MENU
+    -->
+    <div id="all-menu">
+      <section
+        class="section menu vini"
+        aria-label="menu-label"
+        menu-data
+        id="menu-list"
+      >
+        <div class="container" id="menu-vini">
+          <p class="section-subtitle text-center label-2">Gustare la Vita</p>
+
+          <h2 class="headline-1 section-title text-center">Menu Vini</h2>
+
+          <div class="menu-bollicine">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 3.50</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Bollicine Mescita</h1>
+              <li>
+                Prosecco Extra Dry DOCG
+                <br />
+                Sutto Valdobbiadene
+              </li>
+            </ul>
+          </div>
+
+          <hr />
+
+          <div class="menu-vini-bianchi">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 4.00</li>
+              <li>&euro; 4.50</li>
+              <li>&euro; 4.50</li>
+              <li>&euro; 5.00</li>
+              <li>&euro; 3.50</li>
+              <li>&euro; 3.50</li>
+              <li>&euro; 4.50</li>
+              <li>&euro; 6.00</li>
+              <li>&euro; 5.00</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Vini Bianchi Mescita</h1>
+              <li>
+                Chardonnay IGP
+                <br />
+                Vallone Versante
+              </li>
+              <br />
+              <li>
+                Passerina Vigor Marche
+                <br />
+                Umani Ronchi
+              </li>
+              <br />
+              <li>
+                Verdicchio Castelli di Jesi
+                <br />
+                Villa Bianchi Umani Ronchi
+              </li>
+              <br />
+              <li>
+                Vigna del Lauro
+                <br />
+                Collio Ribolla Gialla
+              </li>
+              <br />
+              <li>
+                02 IGP Lazio
+                <br />
+                Casale Cinque Scudi
+              </li>
+              <br />
+              <li>
+                06 IGP Lazio
+                <br />
+                Casale Cinque Scudi
+              </li>
+              <br />
+              <li>
+                Sirio
+                <br />
+                Colle di Maggio
+              </li>
+              <br />
+              <li>
+                Gewurztraminer Kossler
+                <br />
+                Alto Adige San Paolo
+              </li>
+              <br />
+              <li>
+                Malvasia Puntinata
+                <br />
+                Pietra Pinta
+              </li>
+            </ul>
+          </div>
+
+          <hr />
+
+          <div class="menu-vini-rossi">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 5.00</li>
+              <li>&euro; 5.00</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Vini Rossi Mescita</h1>
+              <li>
+                Barbera d'Alba Pelisa
+                <br />
+                Monchiero Carbone
+              </li>
+              <br />
+              <li>
+                Morellino di Scansano
+                <br />
+                Cerreto Piano
+              </li>
+            </ul>
+          </div>
+
+          <hr />
+
+          <div class="menu-vini-bianchi-bottiglia">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 18.00</li>
+              <li>&euro; 16.00</li>
+              <li>&euro; 10.00</li>
+              <li>&euro; 11.50</li>
+              <li>&euro; 16.00</li>
+              <li>&euro; 18.00</li>
+              <li>&euro; 17.00</li>
+              <li>&euro; 16.00</li>
+              <li>&euro; 17.00</li>
+              <li>&euro; 18.00</li>
+              <li>&euro; 15.00</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Vini Bianchi Bottiglia</h1>
+              <li>
+                Verdicchio Castelli di Jesi
+                <br />
+                Villa Bianchi Umani Ronchi
+              </li>
+              <br />
+              <li>
+                Vigna del Lauro
+                <br />
+                Collio Ribolla Gialla
+              </li>
+              <br />
+              <li>
+                02 IGP Lazio
+                <br />
+                Casale Cinque Scudi
+              </li>
+              <br />
+              <li>
+                06 IGP Lazio
+                <br />
+                Casale Cinque Scudi
+              </li>
+              <br />
+              <li>
+                Sirio
+                <br />
+                Colle di Maggio
+              </li>
+              <br />
+              <li>
+                Gewurztraminer Kossler
+                <br />
+                Alto Adige San Paolo
+              </li>
+              <br />
+              <li>
+                Malvasia Puntinata
+                <br />
+                Pietra Pinta
+              </li>
+              <br />
+              <li>
+                Pecorino Vellodoro
+                <br />
+                Umani Ronchi 2022
+              </li>
+              <br />
+              <li>
+                Pinot Grigio
+                <br />
+                Battibecco Caviro
+              </li>
+              <br />
+              <li>
+                Riesling
+                <br />
+                Vanzini Oltrepo Pavese
+              </li>
+              <br />
+              <li>
+                Evoluzione
+                <br />
+                Casale Cinque Scudi
+              </li>
+            </ul>
+          </div>
+
+          <hr />
+
+          <div class="menu-vini-rossi-bottiglia">
+            <ol>
+              <h1 class="price">Prezzo</h1>
+              <br />
+              <li>&euro; 15.00</li>
+              <li>&euro; 16.00</li>
+            </ol>
+
+            <ul>
+              <h1 class="item">Vini Rossi Bottiglia</h1>
+              <li>
+                Orione
+                <br />
+                Colle di Maggio
+              </li>
+              <br />
+              <li>
+                Syrah
+                <br />
+                Amor Vitae
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
